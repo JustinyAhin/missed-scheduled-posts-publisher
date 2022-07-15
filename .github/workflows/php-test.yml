@@ -2,9 +2,9 @@ name: Unit Testing
 
 on:
   push:
-    # branches:
-    #   - main
-    # Only run if PHP-related files changed.
+    branches:
+      - dev
+    Only run if PHP-related files changed.
     paths:
       - '.github/workflows/php-test.yml'
       - '**.php'
