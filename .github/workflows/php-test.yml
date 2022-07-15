@@ -30,7 +30,7 @@ on:
 
 jobs:
   php-test:
-    name: PHP
+    name: PHP Unit Tests
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
